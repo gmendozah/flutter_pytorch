@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await FlutterPytorch.platformVersion, '42');
+    expect(await PyTorch.platformVersion, '42');
   });
 }
