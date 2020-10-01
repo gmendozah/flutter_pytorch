@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await PyTorch.platformVersion, '42');
+    expect(await Torch.platformVersion, '42');
   });
 }
